@@ -1,0 +1,13 @@
+No ALTQ support in kernel
+ALTQ related functions disabled
+scrub-anchor "com.apple/*" all fragment reassemble
+anchor "com.apple/*" all {
+  anchor "200.AirDrop/*" all {
+  }
+  anchor "250.ApplicationFirewall/*" all {
+    scrub in all fragment reassemble
+    block drop in quick inet proto icmp all icmp-type echoreq
+    block drop in quick inet proto icmp all icmp-type echoreq
+    block drop in quick inet6 proto ipv6-icmp all icmp6-type echoreq
+  }
+}

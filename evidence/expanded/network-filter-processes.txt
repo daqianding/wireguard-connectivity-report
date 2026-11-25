@@ -1,0 +1,2 @@
+/Library/SystemExtensions/FE5CA3ED-AD60-4E0A-82D1-C5A2E4FE3F91/com.cisco.anyconnect.macos.acsockext.systemextension/Contents/MacOS/com.cisco.anyconnect.macos.acsockext
+/Applications/GlobalSecureAccessClient/Global Secure Access Client.app/Contents/MacOS/Global Secure Access Client

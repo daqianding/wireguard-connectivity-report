@@ -1,0 +1,1 @@
+UDP DNS control: proxy=False; transaction_matches=True; response=True; rcode=0; answers=2

@@ -1,0 +1,96 @@
+[#] wireguard-go utun
+DEBUG: (utun7) 2026/11/25 17:47:30 Starting wireguard-go version 0.0.20250522
+DEBUG: (utun7) 2026/11/25 17:47:30 Starting wireguard-go version 0.0.20250522
+DEBUG: (utun7) 2026/11/25 17:47:30 Device started
+DEBUG: (utun7) 2026/11/25 17:47:30 UAPI listener started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 7 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 1 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 1 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 1 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 2 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 8 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 13 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 12 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 11 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 10 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 9 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: TUN reader - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 9 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 11 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 15 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: event worker - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Interface up requested
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 10 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 2 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 2 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 3 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 3 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 3 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 4 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 4 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 4 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 5 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 5 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 5 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 6 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 6 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 6 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 7 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 7 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 13 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 12 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 12 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 10 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 14 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 13 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 14 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 14 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 9 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 11 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: decryption worker 8 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 8 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: encryption worker 15 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: handshake worker 15 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 UDP bind has been updated
+DEBUG: (utun7) 2026/11/25 17:47:30 Interface state was Down, requested Up, now Up
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: receive incoming v6 - started
+DEBUG: (utun7) 2026/11/25 17:47:30 Routine: receive incoming v4 - started
+[+] Interface for wgproxy is utun7
+[#] wg addconf utun7 /dev/fd/63
+DEBUG: (utun7) 2026/11/25 17:47:30 UAPI: Updating private key
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - UAPI: Created
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - UAPI: Updating endpoint
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - UAPI: Updating persistent keepalive interval
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - UAPI: Removing all allowedips
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - UAPI: Adding allowedip
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - UAPI: Adding allowedip
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - Starting
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - Routine: sequential sender - started
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - Sending keepalive packet
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - Routine: sequential receiver - started
+[#] ifconfig utun7 inet 10.200.0.5/24 10.200.0.5 alias
+[#] ifconfig utun7 mtu 1280
+DEBUG: (utun7) 2026/11/25 17:47:30 MTU updated: 1280
+[#] ifconfig utun7 up
+[#] route -q -n add -inet 10.200.0.0/24 -interface utun7
+[#] route -q -n add -inet 10.128.13.0/24 -interface utun7
+[+] Backgrounding route monitor
+DEBUG: (utun7) 2026/11/25 17:47:30 peer(6C6I…eilE) - Received handshake response
+DEBUG: (utun7) 2026/11/25 17:47:45 peer(6C6I…eilE) - Receiving keepalive packet
+DEBUG: (utun7) 2026/11/25 17:48:10 peer(6C6I…eilE) - Sending keepalive packet
+DEBUG: (utun7) 2026/11/25 17:48:35 peer(6C6I…eilE) - Sending keepalive packet
+DEBUG: (utun7) 2026/11/25 17:49:00 peer(6C6I…eilE) - Sending keepalive packet
+[+] Interface for wgproxy is utun7
+[#] rm -f /var/run/wireguard/utun7.sock
+DEBUG: (utun7) 2026/11/25 17:49:07 Device closing
+[#] rm -f /var/run/wireguard/wgproxy.name
+DEBUG: (utun7) 2026/11/25 17:49:07 Interface down requested
+DEBUG: (utun7) 2026/11/25 17:49:07 Routine: TUN reader - stopped
+DEBUG: (utun7) 2026/11/25 17:49:07 Routine: receive incoming v4 - stopped
+DEBUG: (utun7) 2026/11/25 17:49:07 Routine: receive incoming v6 - stopped
+DEBUG: (utun7) 2026/11/25 17:49:07 peer(6C6I…eilE) - Stopping
+DEBUG: (utun7) 2026/11/25 17:49:07 peer(6C6I…eilE) - Routine: sequential sender - stopped
+DEBUG: (utun7) 2026/11/25 17:49:07 peer(6C6I…eilE) - Routine: sequential receiver - stopped
+DEBUG: (utun7) 2026/11/25 17:49:07 Device closed
+DEBUG: (utun7) 2026/11/25 17:49:07 Shutting down

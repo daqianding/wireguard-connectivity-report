@@ -1,0 +1,46 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on utun7, link-type NULL (BSD loopback), snapshot length 524288 bytes
+2026-11-25 15:50:31.168658 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [SEW], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232669956 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:31.168697 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [SEW], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149633106 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:31.168701 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [SEW], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198761274 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:31.168723 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [SEW], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229670601 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:32.169201 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229671602 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:32.169274 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198762275 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:32.169336 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149634107 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:32.169344 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232670957 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:33.170175 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229672603 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:33.170226 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198763276 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:33.170280 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149635108 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:33.170286 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232671958 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:34.170755 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229673603 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:34.170821 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198764276 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:34.170888 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149636108 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:34.170902 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232672958 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:35.171357 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229674604 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:35.171413 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198765277 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:35.171459 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149637109 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:35.171465 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232673959 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:36.171992 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229675604 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:36.172028 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198766277 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:36.172523 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149638109 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:36.172537 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232674959 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:38.172902 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229677605 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:38.172933 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198768278 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:38.172972 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149640110 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:38.172981 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232676960 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:42.173645 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229681606 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:42.173679 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198772279 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:42.173710 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149644111 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:42.173886 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232680961 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:50.174182 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229689607 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:50.174247 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198780280 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:50.174342 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149652112 ecr 0,sackOK,eol], length 0
+2026-11-25 15:50:50.174355 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232688962 ecr 0,sackOK,eol], length 0
+2026-11-25 15:51:06.175507 IP 10.200.0.5.64313 > 10.128.13.130.22: Flags [S], seq 1827000454, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2229705608 ecr 0,sackOK,eol], length 0
+2026-11-25 15:51:06.175561 IP 10.200.0.5.64311 > 10.128.13.132.22: Flags [S], seq 2071086642, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 4198796281 ecr 0,sackOK,eol], length 0
+2026-11-25 15:51:06.175616 IP 10.200.0.5.64310 > 10.128.13.131.22: Flags [S], seq 1632204258, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 1149668113 ecr 0,sackOK,eol], length 0
+2026-11-25 15:51:06.175636 IP 10.200.0.5.64312 > 10.128.13.133.22: Flags [S], seq 3427615985, win 65535, options [mss 1340,nop,wscale 6,nop,nop,TS val 2232704963 ecr 0,sackOK,eol], length 0
+tcpdump: pcap_loop: The interface disappeared
+40 packets captured
+40 packets received by filter
+0 packets dropped by kernel

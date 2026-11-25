@@ -1,0 +1,77 @@
+tcpdump: listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+2026-11-25 17:38:23.467619 IP (tos 0x0, ttl 64, id 17982, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:28.503868 IP (tos 0x0, ttl 64, id 15356, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:33.660785 IP (tos 0x0, ttl 64, id 5661, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:38.781244 IP (tos 0x0, ttl 64, id 45764, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:43.962782 IP (tos 0x0, ttl 64, id 34075, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:49.096227 IP (tos 0x0, ttl 64, id 47530, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:54.400278 IP (tos 0x0, ttl 64, id 51661, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:38:59.416278 IP (tos 0x0, ttl 64, id 3484, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:04.581396 IP (tos 0x0, ttl 64, id 26896, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:09.764121 IP (tos 0x0, ttl 64, id 33037, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:15.044123 IP (tos 0x0, ttl 64, id 43897, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:20.277470 IP (tos 0x0, ttl 64, id 61382, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:25.328944 IP (tos 0x0, ttl 64, id 40023, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:30.462825 IP (tos 0x0, ttl 64, id 30273, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:35.636225 IP (tos 0x0, ttl 64, id 2335, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:40.705242 IP (tos 0x0, ttl 64, id 34001, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:45.706736 IP (tos 0x0, ttl 64, id 19388, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:50.936260 IP (tos 0x0, ttl 64, id 37307, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:39:56.228789 IP (tos 0x0, ttl 64, id 53317, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:01.354341 IP (tos 0x0, ttl 64, id 9626, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:06.573874 IP (tos 0x0, ttl 64, id 55227, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:11.774835 IP (tos 0x0, ttl 64, id 44390, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:17.034380 IP (tos 0x0, ttl 64, id 55701, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:42.034675 IP (tos 0x0, ttl 64, id 27376, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:47.080970 IP (tos 0x0, ttl 64, id 3881, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:52.274478 IP (tos 0x0, ttl 64, id 55085, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:40:57.435980 IP (tos 0x0, ttl 64, id 39563, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:02.740329 IP (tos 0x0, ttl 64, id 4826, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:07.852721 IP (tos 0x0, ttl 64, id 57383, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:13.028527 IP (tos 0x0, ttl 64, id 1599, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:18.178127 IP (tos 0x0, ttl 64, id 10358, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:23.204917 IP (tos 0x0, ttl 64, id 48360, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:28.393559 IP (tos 0x0, ttl 64, id 14408, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:33.619469 IP (tos 0x0, ttl 64, id 17488, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:38.825213 IP (tos 0x0, ttl 64, id 51731, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:41:44.098903 IP (tos 0x0, ttl 64, id 48645, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.51820 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+
+36 packets captured
+33958 packets received by filter
+0 packets dropped by kernel
