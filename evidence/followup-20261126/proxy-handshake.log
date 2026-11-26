@@ -1,0 +1,16 @@
+tcpdump: listening on lo0, link-type NULL (BSD loopback), snapshot length 524288 bytes
+2026-11-26 14:20:43.380683 IP (tos 0x0, ttl 64, id 24663, offset 0, flags [none], proto UDP (17), length 176, bad cksum 0 (->1be4)!)
+    127.0.0.1.51398 > 127.0.0.1.52999: [bad udp cksum 0xfeaf -> 0x39ac!] UDP, length 148
+2026-11-26 14:20:43.825688 IP (tos 0x0, ttl 64, id 13137, offset 0, flags [none], proto UDP (17), length 120, bad cksum 0 (->4922)!)
+    127.0.0.1.52999 > 127.0.0.1.51398: [bad udp cksum 0xfe77 -> 0xe3a8!] UDP, length 92
+2026-11-26 14:20:43.829510 IP (tos 0x0, ttl 64, id 9431, offset 0, flags [none], proto UDP (17), length 60, bad cksum 0 (->57d8)!)
+    127.0.0.1.51398 > 127.0.0.1.52999: [bad udp cksum 0xfe3b -> 0x1b03!] UDP, length 32
+2026-11-26 14:20:44.494326 IP (tos 0x0, ttl 64, id 24655, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->1c20)!)
+    127.0.0.1.51398 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x42f1!] UDP, length 96
+2026-11-26 14:20:44.935675 IP (tos 0x0, ttl 64, id 42686, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->d5b0)!)
+    127.0.0.1.52999 > 127.0.0.1.51398: [bad udp cksum 0xfe7b -> 0xac5e!] UDP, length 96
+2026-11-26 14:20:44.936010 IP (tos 0x0, ttl 64, id 61514, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->8c24)!)
+    127.0.0.1.51398 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x8649!] UDP, length 96
+6 packets captured
+1168 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,25 @@
+tcpdump: listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+2026-11-26 14:19:12.569752 IP (tos 0x0, ttl 64, id 14469, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:17.671996 IP (tos 0x0, ttl 64, id 7523, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:22.796632 IP (tos 0x0, ttl 64, id 59379, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:28.121161 IP (tos 0x0, ttl 64, id 34372, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:33.412991 IP (tos 0x0, ttl 64, id 60149, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:38.707445 IP (tos 0x0, ttl 64, id 20676, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:43.852110 IP (tos 0x0, ttl 64, id 13084, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:49.090933 IP (tos 0x0, ttl 64, id 53286, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:54.324642 IP (tos 0x0, ttl 64, id 48178, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:19:59.656156 IP (tos 0x0, ttl 64, id 36649, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.59745 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+
+10 packets captured
+11020 packets received by filter
+0 packets dropped by kernel

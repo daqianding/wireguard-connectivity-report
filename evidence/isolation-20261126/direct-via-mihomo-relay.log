@@ -1,0 +1,12 @@
+SOCKS UDP ASSOCIATE OK; local relay=127.0.0.1:17890
+Forwarding WireGuard encrypted UDP from 127.0.0.1:52999 to 114.94.188.196:50015; mode=SOCKS
+2026-11-26 14:42:08 local_to_upstream payload_bytes=148
+2026-11-26 14:42:13 local_to_upstream payload_bytes=148
+2026-11-26 14:42:18 local_to_upstream payload_bytes=148
+2026-11-26 14:42:24 local_to_upstream payload_bytes=148
+2026-11-26 14:42:29 local_to_upstream payload_bytes=148
+2026-11-26 14:42:34 local_to_upstream payload_bytes=148
+2026-11-26 14:42:39 local_to_upstream payload_bytes=148
+2026-11-26 14:42:44 local_to_upstream payload_bytes=148
+2026-11-26 14:42:49 local_to_upstream payload_bytes=148
+Relay totals: sent_datagrams=9 received_datagrams=0

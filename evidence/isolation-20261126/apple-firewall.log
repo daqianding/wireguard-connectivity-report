@@ -1,0 +1,4 @@
+Firewall is enabled. (State = 1)
+Firewall has block all state set to disabled.
+Firewall stealth mode is on
+Incoming connection to /opt/homebrew/bin/wireguard-go is permitted.

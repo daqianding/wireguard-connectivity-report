@@ -1,0 +1,29 @@
+[
+  {
+    "ip": "101.95.167.37",
+    "url": "https://rdap.apnic.net/ip/101.95.167.37",
+    "name": "CHINANET-SH",
+    "startAddress": "101.80.0.0",
+    "endAddress": "101.95.255.255",
+    "country": "CN",
+    "type": "ALLOCATED PORTABLE"
+  },
+  {
+    "ip": "58.33.147.9",
+    "url": "https://rdap.apnic.net/ip/58.33.147.9",
+    "name": "CHINANET-SH",
+    "startAddress": "58.33.0.0",
+    "endAddress": "58.33.255.255",
+    "country": "CN",
+    "type": "allocated non-portable"
+  },
+  {
+    "ip": "114.94.188.196",
+    "url": "https://rdap.apnic.net/ip/114.94.188.196",
+    "name": "CHINANET-SH",
+    "startAddress": "114.80.0.0",
+    "endAddress": "114.95.255.255",
+    "country": "CN",
+    "type": "ALLOCATED PORTABLE"
+  }
+]

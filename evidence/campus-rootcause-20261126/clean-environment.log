@@ -1,0 +1,141 @@
+2026-11-26 21:55:12
+
+['/usr/sbin/scutil', '--proxy']
+<dictionary> {
+  ExceptionsList : <array> {
+    0 : 127.0.0.1
+    1 : 192.168.0.0/16
+    2 : 10.0.0.0/8
+    3 : 172.16.0.0/12
+    4 : localhost
+    5 : *.local
+    6 : *.crashlytics.com
+    7 : <local>
+  }
+  FTPPassive : 1
+  HTTPEnable : 0
+  HTTPSEnable : 0
+  ProxyAutoConfigEnable : 0
+  SOCKSEnable : 0
+}
+
+['/usr/sbin/scutil', '--nwi']
+Network information
+
+IPv4 network interface information
+     en0 : flags      : 0x5 (IPv4,DNS)
+           address    : 10.71.174.20
+           reach      : 0x00000002 (Reachable)
+
+   REACH : flags 0x00000002 (Reachable)
+
+IPv6 network interface information
+   No IPv6 states found
+
+
+   REACH : flags 0x00000000 (Not Reachable)
+
+Network interfaces: en0
+
+['/usr/sbin/scutil', '--dns']
+DNS configuration
+
+resolver #1
+  search domain[0] : hku.hk
+  nameserver[0] : 147.8.235.74
+  nameserver[1] : 147.8.235.73
+  if_index : 15 (en0)
+  flags    : Request A records
+  reach    : 0x00000002 (Reachable)
+
+resolver #2
+  domain   : local
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300000
+
+resolver #3
+  domain   : 254.169.in-addr.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300200
+
+resolver #4
+  domain   : 8.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300400
+
+resolver #5
+  domain   : 9.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300600
+
+resolver #6
+  domain   : a.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300800
+
+resolver #7
+  domain   : b.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 301000
+
+DNS configuration (for scoped queries)
+
+resolver #1
+  search domain[0] : hku.hk
+  nameserver[0] : 147.8.235.74
+  nameserver[1] : 147.8.235.73
+  if_index : 15 (en0)
+  flags    : Scoped, Request A records
+  reach    : 0x00000002 (Reachable)
+
+['/sbin/route', '-n', 'get', '114.94.188.196']
+   route to: 114.94.188.196
+destination: default
+       mask: default
+    gateway: 10.71.128.1
+  interface: en0
+      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0 
+
+['/usr/bin/systemextensionsctl', 'list']
+5 extension(s)
+--- com.apple.system_extension.network_extension (Go to 'System Settings > General > Login Items & Extensions > Network Extensions' to modify these system extension(s))
+enabled	active	teamID	bundleID (version)	name	[state]
+	*	UBF8T346G9	com.microsoft.globalsecureaccess.tunnel (1.1.26060207/1.1.26060207)	Global Secure Access Network Extension	[activated waiting for user]
+	*	DE8Y96K9QP	com.cisco.anyconnect.macos.acsockext (5.1.20.285/5.1.20.285)	Cisco Secure Client - Socket Filter Extension	[activated disabled]
+*	*	VBG97UB4TA	com.objective-see.lulu.extension (4.4.3/4.4.3)	LuLu	[activated enabled]
+--- com.apple.system_extension.driver_extension (Go to 'System Settings > General > Login Items & Extensions > Driver Extensions' to modify these system extension(s))
+enabled	active	teamID	bundleID (version)	name	[state]
+*	*	R2H967U7J8	com.razer.appengine.driver (0.0.13/1)	Razer HID Driver Extension	[activated enabled]
+*	*	R2H967U7J8	com.razer.appengine.virtual.driver (0.0.11/1)	Razer Virtual HID Driver Extension	[activated enabled]
+
+['/bin/ps', '-p', '335,346,348,19730,19740,19756,19768,19791,78264,78296', '-o', 'pid=,stat=,comm=']
+  335 Ts   vpnagentd
+  346 Ts   /Applications/Cloudflare WARP.app/Contents/Resources/CloudflareWARP
+  348 Ts   /Library/PrivilegedHelperTools/efanhelper
+19730 T    /Applications/GlobalProtect.app/Contents/Resources/PanGPS
+19740 T    /Applications/GlobalProtect.app/Contents/MacOS/GlobalProtect
+19756 T    /Applications/GlobalSecureAccessClient/Global Secure Access Client.app/Contents/MacOS/Global Secure Access Client
+19768 T    /Applications/Cloudflare WARP.app/Contents/MacOS/Cloudflare WARP
+19791 T    /Applications/Cisco/Cisco Secure Client.app/Contents/MacOS/Cisco Secure Client
+78264 T    /Applications/Clash Verge.app/Contents/MacOS/clash-verge
+78296 T    /Applications/Clash Verge.app/Contents/MacOS/verge-mihomo

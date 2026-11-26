@@ -1,0 +1,23 @@
+{
+  "login": {
+    "exit_code": 0,
+    "seconds": 4.547,
+    "stdout": "Thu Nov 26 06:20:48 AM UTC 2026\nuid=1006(daqianding) gid=1006(daqianding) groups=1006(daqianding),100(users)\nSSH_CONNECTION=10.200.0.5 54567 10.128.13.133 22\n",
+    "stderr": ""
+  },
+  "download": {
+    "exit_code": 0,
+    "seconds": 8.333,
+    "expected_bytes": 1048576,
+    "received_bytes": 1048576,
+    "all_zero": true,
+    "stderr": ""
+  },
+  "upload": {
+    "exit_code": 0,
+    "seconds": 7.982,
+    "sent_bytes": 1048576,
+    "remote_byte_count": "1048576",
+    "stderr": ""
+  }
+}

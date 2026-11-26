@@ -1,0 +1,13 @@
+Interactive SSH PTY command: date -u; hostname; id; printf SSH_CONNECTION; command -V sudo; readlink -f /usr/bin/sudo; /usr/bin/sudo --version; /usr/bin/sudo -l
+Transcript copied from completed tool output; no password prompt appeared.
+
+Thu Nov 26 12:36:19 PM UTC 2026
+S-7-4
+uid=1006(daqianding) gid=1006(daqianding) groups=1006(daqianding),100(users)
+SSH_CONNECTION=10.200.0.5 59357 10.128.13.133 22
+sudo is /usr/bin/sudo
+/usr/lib/cargo/bin/sudo
+sudo-rs 0.2.13-0ubuntu1.2
+sudo: Sorry, user daqianding may not run sudo on S-7-4.
+Connection to 10.128.13.133 closed.
+Exit status: 1

@@ -1,0 +1,11 @@
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 55242
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 127.0.0.1:52999
+  allowed ips: 10.200.0.0/24, 10.128.13.0/24
+  latest handshake: 16 seconds ago
+  transfer: 540 B received, 580 B sent
+  persistent keepalive: every 25 seconds

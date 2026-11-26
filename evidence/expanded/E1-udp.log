@@ -1,0 +1,17 @@
+tcpdump: listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+2026-11-25 17:30:39.479667 IP (tos 0x0, ttl 64, id 20935, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.49291 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:30:44.516169 IP (tos 0x0, ttl 64, id 35583, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.49291 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:30:49.635112 IP (tos 0x0, ttl 64, id 7936, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.49291 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:30:54.819552 IP (tos 0x0, ttl 64, id 62914, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.49291 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:31:00.111999 IP (tos 0x0, ttl 64, id 44686, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.49291 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-25 17:31:05.166474 IP (tos 0x0, ttl 64, id 6771, offset 0, flags [none], proto UDP (17), length 176)
+    10.71.145.105.49291 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+
+6 packets captured
+6009 packets received by filter
+0 packets dropped by kernel

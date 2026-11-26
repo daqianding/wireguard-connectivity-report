@@ -1,0 +1,17 @@
+Waiting for one fresh WireGuard initiation on 127.0.0.1:52999
+{"payload_bytes": 148, "type": 1, "sender_index": 302603585, "probes": 14}
+{"time": "2026-11-26 15:07:41", "ttl": 1, "source_port": 59621, "result": "icmp_reply", "router": "10.68.0.2", "icmp_type": 11, "icmp_code": 0, "ms": 5.39}
+{"time": "2026-11-26 15:07:41", "ttl": 3, "source_port": 51931, "result": "icmp_reply", "router": "147.8.240.121", "icmp_type": 11, "icmp_code": 0, "ms": 7.576}
+{"time": "2026-11-26 15:07:41", "ttl": 7, "source_port": 63198, "result": "icmp_reply", "router": "203.188.117.5", "icmp_type": 11, "icmp_code": 0, "ms": 5.347}
+{"time": "2026-11-26 15:07:41", "ttl": 12, "source_port": 62255, "result": "icmp_reply", "router": "59.43.39.81", "icmp_type": 11, "icmp_code": 0, "ms": 33.158}
+{"time": "2026-11-26 15:07:41", "ttl": 16, "source_port": 62578, "result": "timeout"}
+{"time": "2026-11-26 15:07:42", "ttl": 17, "source_port": 57362, "result": "icmp_reply", "router": "58.33.147.9", "icmp_type": 11, "icmp_code": 0, "ms": 183.017}
+{"time": "2026-11-26 15:07:42", "ttl": 18, "source_port": 51603, "result": "icmp_reply", "router": "101.95.167.37", "icmp_type": 11, "icmp_code": 0, "ms": 189.213}
+{"time": "2026-11-26 15:07:42", "ttl": 19, "source_port": 64620, "result": "timeout"}
+{"time": "2026-11-26 15:07:44", "ttl": 20, "source_port": 51509, "result": "timeout"}
+{"time": "2026-11-26 15:07:45", "ttl": 21, "source_port": 54261, "result": "timeout"}
+{"time": "2026-11-26 15:07:47", "ttl": 22, "source_port": 59464, "result": "timeout"}
+{"time": "2026-11-26 15:07:48", "ttl": 24, "source_port": 62024, "result": "timeout"}
+{"time": "2026-11-26 15:07:50", "ttl": 32, "source_port": 62661, "result": "timeout"}
+{"time": "2026-11-26 15:07:51", "ttl": 64, "source_port": 59538, "result": "timeout"}
+Finished; no WireGuard session authentication was attempted by this probe.

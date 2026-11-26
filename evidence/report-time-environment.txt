@@ -1,0 +1,71 @@
+Report-time snapshot only; do not backdate these observations to earlier tests.
+2026-11-25T17:24:17.613457+08:00
+
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		27.2.1
+BuildVersion:		26B8132
+
+$ uname -m
+arm64
+
+$ /opt/homebrew/bin/wg --version
+wireguard-tools v1.0.20260223 - https://git.zx2c4.com/wireguard-tools/
+
+$ /opt/homebrew/bin/wireguard-go --version
+wireguard-go v0.0.20250522
+
+Userspace WireGuard daemon for darwin-arm64.
+Information available at https://www.wireguard.com.
+Copyright (C) Jason A. Donenfeld <Jason@zx2c4.com>.
+
+$ scutil --nc list
+Available network connection services in the current set (*=enabled):
+
+$ scutil --proxy
+<dictionary> {
+  ExceptionsList : <array> {
+    0 : 127.0.0.1
+    1 : 192.168.0.0/16
+    2 : 10.0.0.0/8
+    3 : 172.16.0.0/12
+    4 : localhost
+    5 : *.local
+    6 : *.crashlytics.com
+    7 : <local>
+  }
+  FTPPassive : 1
+  HTTPEnable : 1
+  HTTPPort : 7890
+  HTTPProxy : 127.0.0.1
+  HTTPSEnable : 1
+  HTTPSPort : 7890
+  HTTPSProxy : 127.0.0.1
+  ProxyAutoConfigEnable : 0
+  SOCKSEnable : 1
+  SOCKSPort : 7890
+  SOCKSProxy : 127.0.0.1
+}
+
+$ route -n get 114.94.188.196
+   route to: 114.94.188.196
+destination: default
+       mask: default
+    gateway: 10.71.128.1
+  interface: en0
+      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0 
+
+$ route -n get 10.128.13.133
+   route to: 10.128.13.133
+destination: default
+       mask: default
+    gateway: 10.71.128.1
+  interface: en0
+      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0 
+
+$ ipconfig getifaddr en0
+10.71.145.105

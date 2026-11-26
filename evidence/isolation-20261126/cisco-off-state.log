@@ -1,0 +1,12 @@
+Thu Nov 26 06:46:53 UTC 2026
+5 extension(s)
+--- com.apple.system_extension.network_extension (Go to 'System Settings > General > Login Items & Extensions > Network Extensions' to modify these system extension(s))
+enabled	active	teamID	bundleID (version)	name	[state]
+	*	UBF8T346G9	com.microsoft.globalsecureaccess.tunnel (1.1.26060207/1.1.26060207)	Global Secure Access Network Extension	[activated waiting for user]
+	*	DE8Y96K9QP	com.cisco.anyconnect.macos.acsockext (5.1.20.285/5.1.20.285)	Cisco Secure Client - Socket Filter Extension	[activated disabled]
+*	*	VBG97UB4TA	com.objective-see.lulu.extension (4.4.3/4.4.3)	LuLu	[activated enabled]
+--- com.apple.system_extension.driver_extension (Go to 'System Settings > General > Login Items & Extensions > Driver Extensions' to modify these system extension(s))
+enabled	active	teamID	bundleID (version)	name	[state]
+*	*	R2H967U7J8	com.razer.appengine.driver (0.0.13/1)	Razer HID Driver Extension	[activated enabled]
+*	*	R2H967U7J8	com.razer.appengine.virtual.driver (0.0.11/1)	Razer Virtual HID Driver Extension	[activated enabled]
+78296 /Applications/Clash Verge.app/Contents/MacOS/verge-mihomo -d $HOME/Library/Application Support/io.github.clash-verge-rev.clash-verge-rev -f $HOME/Library/Application Support/io.github.clash-verge-rev.clash-verge-rev/clash-verge.yaml -ext-ctl-unix /var/folders/hh/7tqq7kbd4xb1knk044n0pz440000gn/T/verge-mihomo.sock

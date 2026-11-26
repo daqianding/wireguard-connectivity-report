@@ -1,0 +1,7 @@
+Thu Nov 26 12:37:51 PM UTC 2026
+S-7-1
+uid=1006(daqianding) gid=1006(daqianding) groups=1006(daqianding),27(sudo),100(users)
+SSH_CONNECTION=10.128.13.133 59550 10.128.13.130 22
+sudo: interactive authentication is required
+/usr/bin/sudo.ws
+sudo: a password is required

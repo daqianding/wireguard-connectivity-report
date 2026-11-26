@@ -1,0 +1,11 @@
+Thu Nov 26 06:19:50 UTC 2026
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 59745
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 114.94.188.196:50015
+  allowed ips: 10.200.0.0/24, 10.128.13.0/24
+  transfer: 0 B received, 1.30 KiB sent
+  persistent keepalive: every 25 seconds

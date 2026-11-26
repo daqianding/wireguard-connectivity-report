@@ -1,0 +1,53 @@
+# Transcript of tool outputs (2026-11-26 22:44–22:52 UTC+08:00)
+# Source: Verified command execution outputs during live hotspot control test (E17b)
+# Home path sanitized to $HOME; no private keys, passwords, or proxy node names included.
+
+=== Hotspot Network & Public Egress (bypassing proxy) ===
+en0 IP: 172.20.10.9
+gateway: 172.20.10.1
+curl --noproxy '*' -4 https://ipinfo.io/json:
+{
+  "ip": "182.239.92.25",
+  "hostname": "182.239.92.25.hk.chinamobile.com",
+  "city": "Hong Kong",
+  "region": "Hong Kong",
+  "country": "HK",
+  "org": "AS9231 China Mobile Hong Kong Company Limited"
+}
+
+=== Clean-env Native WireGuard Restart & Direct SSH Login to .130 ===
+[#] wireguard-go utun
+[+] Interface for HKU-SH-Lab is utun7
+[#] wg addconf utun7 /dev/fd/63
+[#] ifconfig utun7 inet 10.200.0.5/24 10.200.0.5 alias
+[#] ifconfig utun7 mtu 1280
+[#] ifconfig utun7 up
+[#] route -q -n add -inet 10.200.0.0/24 -interface utun7
+[#] route -q -n add -inet 10.128.13.0/24 -interface utun7
+[+] Backgrounding route monitor
+
+$ ssh -F /dev/null -o ProxyCommand=none -o IdentitiesOnly=yes -i $HOME/.ssh/id_ed25519 daqianding@10.128.13.130 'hostname; id; echo "SSH_CLIENT=$SSH_CLIENT"'
+S-7-1
+uid=1006(daqianding) gid=1006(daqianding) groups=1006(daqianding),27(sudo),100(users)
+SSH_CLIENT=10.128.13.133 50336 22
+
+=== Physical en0 Packet Capture During Hotspot Native Session ===
+2026-11-26 22:46:44.782095 IP 172.20.10.9.59691 > 114.94.188.196.50015: UDP, length 96
+2026-11-26 22:46:44.852757 IP 114.94.188.196.50015 > 172.20.10.9.59691: UDP, length 96
+2026-11-26 22:46:44.853387 IP 172.20.10.9.59691 > 114.94.188.196.50015: UDP, length 96
+2026-11-26 22:46:44.854773 IP 172.20.10.9.59691 > 114.94.188.196.50015: UDP, length 96
+2026-11-26 22:46:44.861979 IP 172.20.10.9.59691 > 114.94.188.196.50015: UDP, length 96
+2026-11-26 22:46:44.927342 IP 114.94.188.196.50015 > 172.20.10.9.59691: UDP, length 96
+
+=== wg show ===
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 49807
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 114.94.188.196:50015
+  allowed ips: 10.200.0.0/24, 10.128.13.0/24
+  latest handshake: 1 second ago
+  transfer: 6.67 KiB received, 6.86 KiB sent
+  persistent keepalive: every 25 seconds

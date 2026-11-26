@@ -1,0 +1,17 @@
+Waiting for one fresh WireGuard initiation on 127.0.0.1:52999
+{"payload_bytes": 148, "type": 1, "sender_index": 1372601202, "probes": 14}
+{"time": "2026-11-26 15:06:34", "ttl": 1, "source_port": 55596, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:34", "ttl": 3, "source_port": 63685, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:34", "ttl": 7, "source_port": 62223, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:34", "ttl": 12, "source_port": 64494, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:34", "ttl": 16, "source_port": 54259, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:35", "ttl": 17, "source_port": 59096, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:35", "ttl": 18, "source_port": 65386, "result": "socket_error", "error": "[Errno 65] No route to host"}
+{"time": "2026-11-26 15:06:35", "ttl": 19, "source_port": 51097, "result": "timeout"}
+{"time": "2026-11-26 15:06:36", "ttl": 20, "source_port": 64253, "result": "timeout"}
+{"time": "2026-11-26 15:06:38", "ttl": 21, "source_port": 58013, "result": "timeout"}
+{"time": "2026-11-26 15:06:39", "ttl": 22, "source_port": 51977, "result": "timeout"}
+{"time": "2026-11-26 15:06:41", "ttl": 24, "source_port": 60613, "result": "timeout"}
+{"time": "2026-11-26 15:06:42", "ttl": 32, "source_port": 63601, "result": "timeout"}
+{"time": "2026-11-26 15:06:44", "ttl": 64, "source_port": 62311, "result": "timeout"}
+Finished; no WireGuard session authentication was attempted by this probe.

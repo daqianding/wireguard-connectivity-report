@@ -1,0 +1,17 @@
+{
+  "tun_enabled": false,
+  "mode": "global",
+  "mixed_port": 7890,
+  "selected_proxy_chain_without_names": [
+    {
+      "type": "Selector",
+      "udp": true,
+      "alive": true
+    },
+    {
+      "type": "AnyTLS",
+      "udp": true,
+      "alive": true
+    }
+  ]
+}

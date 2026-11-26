@@ -1,0 +1,204 @@
+=== Official WireGuard system-tunnel recheck ===
+2026年11月25日 星期三 07时50分31秒 UTC
+wireguard-tools v1.0.20260223 - https://git.zx2c4.com/wireguard-tools/
+wireguard-go v0.0.20250522
+
+Userspace WireGuard daemon for darwin-arm64.
+Information available at https://www.wireguard.com.
+Copyright (C) Jason A. Donenfeld <Jason@zx2c4.com>.
+   route to: 114.94.188.196
+destination: default
+       mask: default
+    gateway: 10.68.0.1
+  interface: en0
+      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0 
+[#] wireguard-go utun
+DEBUG: (utun7) 2026/11/25 15:50:31 Starting wireguard-go version 0.0.20250522
+DEBUG: (utun7) 2026/11/25 15:50:31 Starting wireguard-go version 0.0.20250522
+DEBUG: (utun7) 2026/11/25 15:50:31 Device started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 5 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 UAPI listener started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 6 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 1 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 5 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 1 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 2 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 1 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 6 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 6 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 7 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 7 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 7 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 8 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 8 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 8 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 9 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 9 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 3 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 9 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 2 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 10 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 3 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 10 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 3 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 10 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 11 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 4 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 14 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 11 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 11 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 12 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 14 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 15 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 2 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 15 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: event worker - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Interface up requested
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 12 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 12 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 15 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 13 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 13 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: TUN reader - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 13 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 14 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: encryption worker 4 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: decryption worker 4 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: handshake worker 5 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 UDP bind has been updated
+DEBUG: (utun7) 2026/11/25 15:50:31 Interface state was Down, requested Up, now Up
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: receive incoming v6 - started
+DEBUG: (utun7) 2026/11/25 15:50:31 Routine: receive incoming v4 - started
+[+] Interface for HKU-SH-Lab is utun7
+[#] wg addconf utun7 /dev/fd/63
+DEBUG: (utun7) 2026/11/25 15:50:31 UAPI: Updating private key
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - UAPI: Created
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - UAPI: Updating endpoint
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - UAPI: Updating persistent keepalive interval
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - UAPI: Removing all allowedips
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - UAPI: Adding allowedip
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - UAPI: Adding allowedip
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - Starting
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - Sending keepalive packet
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - Routine: sequential receiver - started
+DEBUG: (utun7) 2026/11/25 15:50:31 peer(6C6I…eilE) - Routine: sequential sender - started
+[#] ifconfig utun7 inet 10.200.0.5/24 10.200.0.5 alias
+[#] ifconfig utun7 mtu 1380
+DEBUG: (utun7) 2026/11/25 15:50:31 MTU updated: 1380
+[#] ifconfig utun7 up
+[#] route -q -n add -inet 10.200.0.0/24 -interface utun7
+[#] route -q -n add -inet 10.128.13.0/24 -interface utun7
+[+] Backgrounding route monitor
+
+=== Interface address and applied configuration ===
+utun7: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet 10.200.0.5 --> 10.200.0.5 netmask 0xffffff00
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 52272
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 114.94.188.196:50015
+  allowed ips: 10.200.0.0/24, 10.128.13.0/24
+  transfer: 0 B received, 148 B sent
+  persistent keepalive: every 25 seconds
+   route to: 10.128.13.133
+destination: 10.128.13.0
+       mask: 255.255.255.0
+  interface: utun7
+      flags: <UP,DONE,STATIC,PRCLONING>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1380         0 
+   route to: 114.94.188.196
+destination: 114.94.188.196
+    gateway: 10.68.0.1
+  interface: en0
+      flags: <UP,GATEWAY,HOST,DONE,WASCLONED,IFSCOPE,IFREF,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0 
+
+=== SSH connection test ===
+DEBUG: (utun7) 2026/11/25 15:50:36 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:50:41 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 2)
+DEBUG: (utun7) 2026/11/25 15:50:41 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:50:46 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 2)
+DEBUG: (utun7) 2026/11/25 15:50:46 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:50:51 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 2)
+DEBUG: (utun7) 2026/11/25 15:50:51 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:50:56 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 3)
+DEBUG: (utun7) 2026/11/25 15:50:56 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:51:02 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 4)
+DEBUG: (utun7) 2026/11/25 15:51:02 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:51:07 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 2)
+DEBUG: (utun7) 2026/11/25 15:51:07 peer(6C6I…eilE) - Sending handshake initiation
+DEBUG: (utun7) 2026/11/25 15:51:12 peer(6C6I…eilE) - Handshake did not complete after 5 seconds, retrying (try 3)
+DEBUG: (utun7) 2026/11/25 15:51:12 peer(6C6I…eilE) - Sending handshake initiation
+10.128.13.130:22 FAILED after 45.007s; timeout: timed out
+10.128.13.131:22 FAILED after 45.007s; timeout: timed out
+10.128.13.132:22 FAILED after 45.006s; timeout: timed out
+10.128.13.133:22 FAILED after 45.006s; timeout: timed out
+
+=== Final handshake and transfer status ===
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 52272
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 114.94.188.196:50015
+  allowed ips: 10.200.0.0/24, 10.128.13.0/24
+  transfer: 0 B received, 1.30 KiB sent
+  persistent keepalive: every 25 seconds
+
+=== System proxy status ===
+<dictionary> {
+  ExceptionsList : <array> {
+    0 : 127.0.0.1
+    1 : 192.168.0.0/16
+    2 : 10.0.0.0/8
+    3 : 172.16.0.0/12
+    4 : localhost
+    5 : *.local
+    6 : *.crashlytics.com
+    7 : <local>
+  }
+  FTPPassive : 1
+  HTTPEnable : 1
+  HTTPPort : 7890
+  HTTPProxy : 127.0.0.1
+  HTTPSEnable : 1
+  HTTPSPort : 7890
+  HTTPSProxy : 127.0.0.1
+  ProxyAutoConfigEnable : 0
+  SOCKSEnable : 1
+  SOCKSPort : 7890
+  SOCKSProxy : 127.0.0.1
+}
+[+] Interface for HKU-SH-Lab is utun7
+[#] rm -f /var/run/wireguard/utun7.sock
+DEBUG: (utun7) 2026/11/25 15:51:16 Device closing
+[#] rm -f /var/run/wireguard/HKU-SH-Lab.name
+DEBUG: (utun7) 2026/11/25 15:51:16 Interface down requested
+DEBUG: (utun7) 2026/11/25 15:51:16 Routine: TUN reader - stopped
+DEBUG: (utun7) 2026/11/25 15:51:16 Routine: receive incoming v4 - stopped
+DEBUG: (utun7) 2026/11/25 15:51:16 Routine: receive incoming v6 - stopped
+DEBUG: (utun7) 2026/11/25 15:51:16 peer(6C6I…eilE) - Stopping
+DEBUG: (utun7) 2026/11/25 15:51:16 peer(6C6I…eilE) - Routine: sequential sender - stopped
+DEBUG: (utun7) 2026/11/25 15:51:16 peer(6C6I…eilE) - Routine: sequential receiver - stopped
+DEBUG: (utun7) 2026/11/25 15:51:16 Device closed
+DEBUG: (utun7) 2026/11/25 15:51:16 Shutting down
+/tmp/wg-recheck/run.sh: line 19: kill: (98262) - No such process
+
+=== Cleanup completed ===
+   route to: 10.128.13.133
+destination: default
+       mask: default
+    gateway: 10.68.0.1
+  interface: en0
+      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0 

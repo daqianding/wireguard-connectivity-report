@@ -1,0 +1,13 @@
+mixed-port: 17890
+bind-address: 127.0.0.1
+allow-lan: false
+mode: direct
+log-level: debug
+ipv6: false
+external-controller: 127.0.0.1:17891
+tun:
+  enable: false
+dns:
+  enable: false
+profile:
+  store-selected: false

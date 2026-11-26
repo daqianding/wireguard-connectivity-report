@@ -1,0 +1,10 @@
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 51820
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 114.94.188.196:50015
+  allowed ips: 10.200.0.0/24, 10.128.13.0/24
+  transfer: 0 B received, 5.20 KiB sent
+  persistent keepalive: every 25 seconds

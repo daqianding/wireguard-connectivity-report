@@ -1,0 +1,191 @@
+tcpdump: listening on lo0, link-type NULL (BSD loopback), snapshot length 524288 bytes
+2026-11-25 17:47:30.246796 IP (tos 0x0, ttl 64, id 36747, offset 0, flags [none], proto UDP (17), length 176, bad cksum 0 (->ecaf)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfeaf -> 0x1587!] UDP, length 148
+2026-11-25 17:47:30.961545 IP (tos 0x0, ttl 64, id 9662, offset 0, flags [none], proto UDP (17), length 120, bad cksum 0 (->56b5)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe77 -> 0x2ddf!] UDP, length 92
+2026-11-25 17:47:30.962063 IP (tos 0x0, ttl 64, id 25082, offset 0, flags [none], proto UDP (17), length 60, bad cksum 0 (->1ab5)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe3b -> 0x7cb6!] UDP, length 32
+2026-11-25 17:47:31.308897 IP (tos 0x0, ttl 64, id 15704, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->3f17)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xa662!] UDP, length 96
+2026-11-25 17:47:31.308930 IP (tos 0x0, ttl 64, id 62692, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->878a)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xfc6b!] UDP, length 96
+2026-11-25 17:47:31.309016 IP (tos 0x0, ttl 64, id 51622, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->b2c8)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x1def!] UDP, length 96
+2026-11-25 17:47:31.309079 IP (tos 0x0, ttl 64, id 12624, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->4b1f)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x130f!] UDP, length 96
+2026-11-25 17:47:31.317109 IP (tos 0x0, ttl 64, id 22370, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->250d)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x5a28!] UDP, length 96
+2026-11-25 17:47:31.328063 IP (tos 0x0, ttl 64, id 60050, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->91dc)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xcd57!] UDP, length 96
+2026-11-25 17:47:31.328104 IP (tos 0x0, ttl 64, id 42314, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->d724)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x9e66!] UDP, length 96
+2026-11-25 17:47:31.659322 IP (tos 0x0, ttl 64, id 14578, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->437d)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xa49a!] UDP, length 96
+2026-11-25 17:47:31.659650 IP (tos 0x0, ttl 64, id 29939, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->77c)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xf82d!] UDP, length 96
+2026-11-25 17:47:31.669797 IP (tos 0x0, ttl 64, id 41105, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->dbdd)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xd573!] UDP, length 96
+2026-11-25 17:47:31.670133 IP (tos 0x0, ttl 64, id 24924, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->1b13)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x8ab0!] UDP, length 96
+2026-11-25 17:47:31.675265 IP (tos 0x0, ttl 64, id 39001, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->e415)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x243d!] UDP, length 96
+2026-11-25 17:47:31.675520 IP (tos 0x0, ttl 64, id 47919, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->c13f)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x389b!] UDP, length 96
+2026-11-25 17:47:31.687777 IP (tos 0x0, ttl 64, id 5243, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->67f4)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xb0be!] UDP, length 96
+2026-11-25 17:47:31.688073 IP (tos 0x0, ttl 64, id 59353, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->9495)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x689a!] UDP, length 96
+2026-11-25 17:47:32.020717 IP (tos 0x0, ttl 64, id 10894, offset 0, flags [none], proto UDP (17), length 156, bad cksum 0 (->51c1)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe9b -> 0x2ad8!] UDP, length 128
+2026-11-25 17:47:32.020883 IP (tos 0x0, ttl 64, id 10136, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->54d7)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xc946!] UDP, length 96
+2026-11-25 17:47:32.020905 IP (tos 0x0, ttl 64, id 19537, offset 0, flags [none], proto UDP (17), length 140, bad cksum 0 (->300e)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe8b -> 0x156b!] UDP, length 112
+2026-11-25 17:47:32.030891 IP (tos 0x0, ttl 64, id 56302, offset 0, flags [none], proto UDP (17), length 156, bad cksum 0 (->a060)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe9b -> 0x502a!] UDP, length 128
+2026-11-25 17:47:32.031073 IP (tos 0x0, ttl 64, id 2879, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->7130)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xed16!] UDP, length 96
+2026-11-25 17:47:32.035195 IP (tos 0x0, ttl 64, id 16971, offset 0, flags [none], proto UDP (17), length 156, bad cksum 0 (->3a04)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe9b -> 0x3444!] UDP, length 128
+2026-11-25 17:47:32.035567 IP (tos 0x0, ttl 64, id 49379, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->bb8b)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x5b4f!] UDP, length 96
+2026-11-25 17:47:32.042883 IP (tos 0x0, ttl 64, id 44159, offset 0, flags [none], proto UDP (17), length 156, bad cksum 0 (->cfcf)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe9b -> 0x3b57!] UDP, length 128
+2026-11-25 17:47:32.043077 IP (tos 0x0, ttl 64, id 58248, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->98e6)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x8cfb!] UDP, length 96
+2026-11-25 17:47:32.376554 IP (tos 0x0, ttl 64, id 11871, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->4e10)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xe7be!] UDP, length 96
+2026-11-25 17:47:32.376740 IP (tos 0x0, ttl 64, id 17895, offset 0, flags [none], proto UDP (17), length 1196, bad cksum 0 (->3258)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x02ac -> 0x83f5!] UDP, length 1168
+2026-11-25 17:47:32.379075 IP (tos 0x0, ttl 64, id 37888, offset 0, flags [none], proto UDP (17), length 1164, bad cksum 0 (->e45e)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x028c -> 0x971e!] UDP, length 1136
+2026-11-25 17:47:32.379197 IP (tos 0x0, ttl 64, id 20876, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->2ae3)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x15e7!] UDP, length 96
+2026-11-25 17:47:32.380028 IP (tos 0x0, ttl 64, id 37993, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->e345)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x033c -> 0x34c5!] UDP, length 1312
+2026-11-25 17:47:32.380045 IP (tos 0x0, ttl 64, id 61995, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->8a43)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xad74!] UDP, length 96
+2026-11-25 17:47:32.735389 IP (tos 0x0, ttl 64, id 15421, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->4032)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xc210!] UDP, length 96
+2026-11-25 17:47:32.735481 IP (tos 0x0, ttl 64, id 59428, offset 0, flags [none], proto UDP (17), length 188, bad cksum 0 (->940a)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfebb -> 0x4a8b!] UDP, length 160
+2026-11-25 17:47:32.735801 IP (tos 0x0, ttl 64, id 4995, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->68ec)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x52f1!] UDP, length 96
+2026-11-25 17:47:32.740497 IP (tos 0x0, ttl 64, id 19133, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->2cf2)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x033c -> 0x2416!] UDP, length 1312
+2026-11-25 17:47:32.740839 IP (tos 0x0, ttl 64, id 24727, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->1bd8)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x0296!] UDP, length 96
+2026-11-25 17:47:32.741087 IP (tos 0x0, ttl 64, id 13186, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->48ed)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x0323!] UDP, length 96
+2026-11-25 17:47:32.741124 IP (tos 0x0, ttl 64, id 16237, offset 0, flags [none], proto UDP (17), length 140, bad cksum 0 (->3cf2)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe8b -> 0x09ec!] UDP, length 112
+2026-11-25 17:47:32.741157 IP (tos 0x0, ttl 64, id 63618, offset 0, flags [none], proto UDP (17), length 140, bad cksum 0 (->83dc)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe8b -> 0x6e5d!] UDP, length 112
+2026-11-25 17:47:32.741189 IP (tos 0x0, ttl 64, id 41192, offset 0, flags [none], proto UDP (17), length 140, bad cksum 0 (->db76)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe8b -> 0x42f3!] UDP, length 112
+2026-11-25 17:47:33.090433 IP (tos 0x0, ttl 64, id 62941, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->8691)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xfd68!] UDP, length 96
+2026-11-25 17:47:33.094701 IP (tos 0x0, ttl 64, id 37020, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->ebd2)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x5002!] UDP, length 96
+2026-11-25 17:47:33.094742 IP (tos 0x0, ttl 64, id 7801, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->5df6)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x45d5!] UDP, length 96
+2026-11-25 17:47:33.094907 IP (tos 0x0, ttl 64, id 40652, offset 0, flags [none], proto UDP (17), length 1196, bad cksum 0 (->d972)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x02ac -> 0x5d0f!] UDP, length 1168
+2026-11-25 17:47:33.098006 IP (tos 0x0, ttl 64, id 39842, offset 0, flags [none], proto UDP (17), length 1164, bad cksum 0 (->dcbc)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x028c -> 0x1e30!] UDP, length 1136
+2026-11-25 17:47:33.098138 IP (tos 0x0, ttl 64, id 31657, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->c6)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xfb47!] UDP, length 96
+2026-11-25 17:47:33.102728 IP (tos 0x0, ttl 64, id 44043, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->d063)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x630d!] UDP, length 96
+2026-11-25 17:47:33.102772 IP (tos 0x0, ttl 64, id 39516, offset 0, flags [none], proto UDP (17), length 1164, bad cksum 0 (->de02)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x028c -> 0xe19e!] UDP, length 1136
+2026-11-25 17:47:33.102968 IP (tos 0x0, ttl 64, id 41215, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->db6f)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x3a83!] UDP, length 96
+2026-11-25 17:47:33.103002 IP (tos 0x0, ttl 64, id 36410, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->ee34)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x863e!] UDP, length 96
+2026-11-25 17:47:33.103779 IP (tos 0x0, ttl 64, id 56059, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->9cb3)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x033c -> 0xfb62!] UDP, length 1312
+2026-11-25 17:47:33.103796 IP (tos 0x0, ttl 64, id 28214, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->e39)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x19ab!] UDP, length 96
+2026-11-25 17:47:33.107052 IP (tos 0x0, ttl 64, id 41041, offset 0, flags [none], proto UDP (17), length 1164, bad cksum 0 (->d80d)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x028c -> 0x32ef!] UDP, length 1136
+2026-11-25 17:47:33.107225 IP (tos 0x0, ttl 64, id 33730, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->f8ac)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x8839!] UDP, length 96
+2026-11-25 17:47:33.454151 IP (tos 0x0, ttl 64, id 32399, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->fddf)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xdfe1!] UDP, length 96
+2026-11-25 17:47:33.465991 IP (tos 0x0, ttl 64, id 42964, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->cfda)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x033c -> 0x0e35!] UDP, length 1312
+2026-11-25 17:47:33.466349 IP (tos 0x0, ttl 64, id 51303, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->b407)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xb853!] UDP, length 96
+2026-11-25 17:47:33.469238 IP (tos 0x0, ttl 64, id 62135, offset 0, flags [none], proto UDP (17), length 188, bad cksum 0 (->8977)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfebb -> 0x12c8!] UDP, length 160
+2026-11-25 17:47:33.469475 IP (tos 0x0, ttl 64, id 45540, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->ca8a)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x79a1!] UDP, length 96
+2026-11-25 17:47:33.469534 IP (tos 0x0, ttl 64, id 64826, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->7f34)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x0fbb!] UDP, length 96
+2026-11-25 17:47:33.469610 IP (tos 0x0, ttl 64, id 45171, offset 0, flags [none], proto UDP (17), length 1196, bad cksum 0 (->c7cb)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x02ac -> 0xdfdb!] UDP, length 1168
+2026-11-25 17:47:33.470741 IP (tos 0x0, ttl 64, id 37558, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->e4f8)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x033c -> 0x0308!] UDP, length 1312
+2026-11-25 17:47:33.470766 IP (tos 0x0, ttl 64, id 51860, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->b1da)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xfce2!] UDP, length 96
+2026-11-25 17:47:33.863365 IP (tos 0x0, ttl 64, id 46457, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->c6f5)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xab0b!] UDP, length 96
+2026-11-25 17:47:33.863427 IP (tos 0x0, ttl 64, id 17822, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->36d1)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x80c9!] UDP, length 96
+2026-11-25 17:47:33.863480 IP (tos 0x0, ttl 64, id 42355, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->d23b)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x033c -> 0xec9b!] UDP, length 1312
+2026-11-25 17:47:33.863520 IP (tos 0x0, ttl 64, id 28952, offset 0, flags [none], proto UDP (17), length 188, bad cksum 0 (->b17)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfebb -> 0x4a02!] UDP, length 160
+2026-11-25 17:47:33.863619 IP (tos 0x0, ttl 64, id 17980, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->3633)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x35db!] UDP, length 96
+2026-11-25 17:47:33.863645 IP (tos 0x0, ttl 64, id 42282, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->d744)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x928e!] UDP, length 96
+2026-11-25 17:47:33.863715 IP (tos 0x0, ttl 64, id 30761, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->446)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x3a51!] UDP, length 96
+2026-11-25 17:47:33.863793 IP (tos 0x0, ttl 64, id 60164, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->916a)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x7922!] UDP, length 96
+2026-11-25 17:47:33.863881 IP (tos 0x0, ttl 64, id 22712, offset 0, flags [none], proto UDP (17), length 1196, bad cksum 0 (->1f87)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x02ac -> 0x1923!] UDP, length 1168
+2026-11-25 17:47:33.865079 IP (tos 0x0, ttl 64, id 26526, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->1011)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x033c -> 0xaf1f!] UDP, length 1312
+2026-11-25 17:47:33.865105 IP (tos 0x0, ttl 64, id 53947, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->a9b3)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x42e3!] UDP, length 96
+2026-11-25 17:47:34.219958 IP (tos 0x0, ttl 64, id 18348, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->34c3)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0xdd05!] UDP, length 96
+2026-11-25 17:47:34.220028 IP (tos 0x0, ttl 64, id 8162, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->5c8d)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x807e!] UDP, length 96
+2026-11-25 17:47:34.220085 IP (tos 0x0, ttl 64, id 29971, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->29c)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0x033c -> 0x9f56!] UDP, length 1312
+2026-11-25 17:47:34.220135 IP (tos 0x0, ttl 64, id 858, offset 0, flags [none], proto UDP (17), length 188, bad cksum 0 (->78d5)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfebb -> 0x5501!] UDP, length 160
+2026-11-25 17:47:34.220228 IP (tos 0x0, ttl 64, id 12059, offset 0, flags [none], proto UDP (17), length 1340, bad cksum 0 (->4894)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0x033c -> 0x3a20!] UDP, length 1312
+2026-11-25 17:47:34.220261 IP (tos 0x0, ttl 64, id 45768, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->c9a6)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0xfc8b!] UDP, length 96
+2026-11-25 17:47:34.220291 IP (tos 0x0, ttl 64, id 61526, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->8c18)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x705c!] UDP, length 96
+2026-11-25 17:47:34.220364 IP (tos 0x0, ttl 64, id 25938, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->171d)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x6e00!] UDP, length 96
+2026-11-25 17:47:34.220423 IP (tos 0x0, ttl 64, id 9977, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->5576)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x5994!] UDP, length 96
+2026-11-25 17:47:34.225716 IP (tos 0x0, ttl 64, id 64760, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->7f76)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x1c3c!] UDP, length 96
+2026-11-25 17:47:34.577494 IP (tos 0x0, ttl 64, id 32889, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->fbf5)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x10dc!] UDP, length 96
+2026-11-25 17:47:34.577555 IP (tos 0x0, ttl 64, id 40986, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->dc54)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe7b -> 0x7450!] UDP, length 96
+2026-11-25 17:47:34.577732 IP (tos 0x0, ttl 64, id 24515, offset 0, flags [none], proto UDP (17), length 124, bad cksum 0 (->1cac)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe7b -> 0x842f!] UDP, length 96
+2026-11-25 17:47:45.062551 IP (tos 0x0, ttl 64, id 2295, offset 0, flags [none], proto UDP (17), length 60, bad cksum 0 (->73b8)!)
+    127.0.0.1.52999 > 127.0.0.1.65148: [bad udp cksum 0xfe3b -> 0xd569!] UDP, length 32
+2026-11-25 17:48:10.063432 IP (tos 0x0, ttl 64, id 17364, offset 0, flags [none], proto UDP (17), length 60, bad cksum 0 (->38db)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe3b -> 0x9a73!] UDP, length 32
+2026-11-25 17:48:35.064959 IP (tos 0x0, ttl 64, id 19657, offset 0, flags [none], proto UDP (17), length 60, bad cksum 0 (->2fe6)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe3b -> 0x68f6!] UDP, length 32
+2026-11-25 17:49:00.065388 IP (tos 0x0, ttl 64, id 58402, offset 0, flags [none], proto UDP (17), length 60, bad cksum 0 (->988c)!)
+    127.0.0.1.65148 > 127.0.0.1.52999: [bad udp cksum 0xfe3b -> 0x94ee!] UDP, length 32
+
+93 packets captured
+9884 packets received by filter
+0 packets dropped by kernel
