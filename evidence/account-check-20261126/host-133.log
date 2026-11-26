@@ -1,0 +1,7 @@
+Thu Nov 26 12:37:51 PM UTC 2026
+S-7-4
+uid=1006(daqianding) gid=1006(daqianding) groups=1006(daqianding),100(users)
+SSH_CONNECTION=10.200.0.5 59553 10.128.13.133 22
+/usr/bin/sudo.ws
+sudo: Sorry, user daqianding may not run sudo on S-7-4.
+sudo: a password is required
