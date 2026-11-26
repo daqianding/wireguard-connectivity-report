@@ -1,0 +1,25 @@
+Thu Nov 26 06:15:25 AM UTC 2026
+Linux 7.0.0-44-generic
+SSH_CONNECTION=10.200.0.5 54099 10.128.13.133 22
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens20f0          UP             10.128.13.133/27 fe80::61ce:e87:196d:338/64 
+ens20f1          DOWN           
+enx860fd07bff66  UNKNOWN        169.254.153.26/16 fe80::d44c:5efb:36f8:172/64 
+ens20f2          DOWN           
+ens20f3          DOWN           
+ens15f0np0       UP             192.168.2.2/24 
+wg0              UNKNOWN        10.200.0.1/24 
+docker0          DOWN           172.17.0.1/16 
+default via 10.128.13.129 dev ens20f0 proto static metric 101 
+10.128.13.128/27 dev ens20f0 proto kernel scope link src 10.128.13.133 metric 101 
+10.200.0.0/24 dev wg0 proto kernel scope link src 10.200.0.1 
+169.254.0.0/16 dev enx860fd07bff66 proto kernel scope link src 169.254.153.26 metric 102 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.2.0/24 dev ens15f0np0 proto kernel scope link src 192.168.2.2 metric 100 
+224.0.0.0/4 dev enx860fd07bff66 proto static scope link metric 102 
+/usr/bin/wg
+/usr/bin/tcpdump
+/usr/bin/timeout
+/usr/bin/sudo
+sudo: Sorry, user daqianding may not run sudo on S-7-4.
+sudo: I'm sorry daqianding. I'm afraid I can't do that

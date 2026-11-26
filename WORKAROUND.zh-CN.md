@@ -1,8 +1,10 @@
 # 已验证的临时连接方法：官方 WireGuard 经 Clash SOCKS5 UDP
 
-2026-11-25 的 E6/E9 两轮已成功完成 WireGuard 握手；E9 完整读取四台服务器的 SSH banner 和主机公钥。未进行账号登录认证、长时间稳定性或吞吐测试。
+2026-11-25 的 E6/E9 两轮已成功完成 WireGuard 握手；E9 完整读取四台服务器的 SSH banner 和主机公钥。2026-11-26 又完成 `.133` 的真实账号登录和 SSH 双向各 1 MiB 数据传输。尚未验证长时间稳定性，短传输耗时包含 SSH 建连，不是吞吐基准。
 
 本方法保留官方 WireGuard 客户端处理所有密钥和加密。本地 Python 工具只把已经加密的 WireGuard UDP 数据报交给现有 SOCKS5 UDP 代理，代码中没有 WireGuard 私钥。不要用 HTTP CONNECT 或普通 TCP 端口转发代替 UDP 中转。
+
+本次 AnyTLS 出站支持 UDP-over-TCP，能把收到的数据报装入 TLS/TCP，到代理出口恢复 UDP；这不同于把 WireGuard 的 Endpoint 直接指向一个 TCP 端口。机制见 [AnyTLS 官方协议](https://github.com/anytls/anytls-go/blob/main/docs/protocol.md)。保持 Clash 系统代理开启本身不会自动启用此路径。
 
 ## 前提
 

@@ -1,0 +1,18 @@
+[
+  {
+    "start": "2026-11-26T14:14:17.042119+08:00",
+    "upload": 15596,
+    "download": 16036,
+    "rule": "",
+    "metadata": {
+      "network": "udp",
+      "type": "Socks5",
+      "sourceIP": "127.0.0.1",
+      "sourcePort": "56730",
+      "destinationIP": "114.94.188.196",
+      "destinationPort": "50015",
+      "host": ""
+    },
+    "chain_length": 2
+  }
+]
