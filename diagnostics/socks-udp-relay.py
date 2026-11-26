@@ -15,7 +15,7 @@ def addr(s,atyp):
     raise RuntimeError('Unsupported SOCKS address type')
 
 def associate():
-    ctl=socket.create_connection(('127.0.0.1',7890),timeout=5)
+    ctl=socket.create_connection(('127.0.0.1',args.socks_port),timeout=5)
     ctl.sendall(b'\x05\x01\x00')
     if readn(ctl,2)!=b'\x05\x00': raise RuntimeError('SOCKS no-auth negotiation rejected')
     ctl.sendall(b'\x05\x03\x00\x01'+b'\x00'*6)
@@ -55,7 +55,7 @@ def dnscheck(use_proxy):
         udp.close()
         if ctl:ctl.close()
 
-p=argparse.ArgumentParser();p.add_argument('--check',choices=['direct','proxy']);p.add_argument('--listen',type=int,default=52999);p.add_argument('--direct',action='store_true');args=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--check',choices=['direct','proxy']);p.add_argument('--listen',type=int,default=52999);p.add_argument('--socks-port',type=int,default=7890);p.add_argument('--direct',action='store_true');args=p.parse_args()
 if args.check:
     dnscheck(args.check=='proxy')
 else:

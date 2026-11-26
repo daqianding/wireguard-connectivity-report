@@ -6,10 +6,13 @@
 
 成功路径需要明确把 WireGuard UDP 送入 Clash SOCKS5；仅开启系统代理不会自动代理原生 WireGuard。当前 AnyTLS 节点把 UDP 装入 TLS/TCP，改变了传输方式、路径和出口来源。不能因此断言具体丢包点或责任方。服务器账号无 sudo 权限，live peer、服务端抓包及路由器 ACL 仍需网管核实。
 
-共整理 T0–T6 和 E1–E12 共 19 个阶段（包含未建隧道基线），另附 DNS UDP、时间、路由追踪和网络过滤检查。对原始文件被覆盖、日志遗漏及一次执行错误均作明确说明。最新证据见[报告第 11 节](REPORT.zh-CN.md#11-2026-11-26-复核实际登录数据传输与服务器只读检查)。
+**进一步定位（11 月 26 日下午）：** 使用同一 Clash 核心的 DIRECT 出站仍失败；经用户同意停用 Cisco 网络扩展、确认其进程退出后，直连仍有 11 个请求、零回包。恢复 Cisco 后代理仍可登录。以真实 WireGuard 握手内容作有限 TTL 探测，收到 TTL 17/18 对应公网路由器的 ICMP 回复，其地址注册为 CHINANET-SH；至少这些请求已通过多级公网网络，排查重点进一步转向后段路径、实验室入口和回程。尚不能确定具体丢包点。
+
+共整理 T0–T6 和 E1–E16 共 23 个阶段（包含未建隧道基线，E16 含一次探测工具修正后复测），另附 DNS UDP、时间、路由追踪和网络过滤检查。对原始文件被覆盖、日志遗漏及执行问题均作明确说明。最新证据见[报告第 12 节](REPORT.zh-CN.md#12-进一步隔离本机过滤代理进程与真实握手包路径)。
 
 - [可复现的代理连接方法](WORKAROUND.zh-CN.md)：使用官方 WireGuard 与一个只转发加密 UDP 的本地中转。
 - [完整中文报告](REPORT.zh-CN.md)：环境、全部尝试、逐轮结果、证据边界、原因分析及网管检查步骤。
+- [网管同步检查清单](NETADMIN.zh-CN.md)：针对剩余未知项的一次短窗口抓包及判定方法。
 - [证据来源说明](evidence/README.md)：区分留存文件、对话中保存的输出、事后环境快照。
 - [早期及最终测试输出摘录](evidence/transcript-excerpts.md)：其中部分原始文件被重复运行覆盖，不能视为原始日志文件。
 - [留存的详细握手日志](evidence/T5-system-mtu1380-proxy-on/result.log)、[公网 UDP 抓包文本](evidence/T5-system-mtu1380-proxy-on/public-udp.log)、[隧道内 SSH 抓包文本](evidence/T5-system-mtu1380-proxy-on/tunnel-ssh.log)。

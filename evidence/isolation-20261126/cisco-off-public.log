@@ -1,0 +1,27 @@
+tcpdump: listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+2026-11-26 14:47:37.229064 IP (tos 0x0, ttl 64, id 45093, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:47:42.279445 IP (tos 0x0, ttl 64, id 25687, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:47:47.300852 IP (tos 0x0, ttl 64, id 27649, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:47:52.427290 IP (tos 0x0, ttl 64, id 25593, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:47:57.484607 IP (tos 0x0, ttl 64, id 1057, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:48:02.557166 IP (tos 0x0, ttl 64, id 458, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:48:07.574455 IP (tos 0x0, ttl 64, id 24280, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:48:12.645959 IP (tos 0x0, ttl 64, id 54497, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:48:17.893215 IP (tos 0x0, ttl 64, id 8656, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:48:23.225489 IP (tos 0x0, ttl 64, id 17916, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+2026-11-26 14:48:28.231643 IP (tos 0x0, ttl 64, id 55784, offset 0, flags [none], proto UDP (17), length 176)
+    10.68.26.54.63046 > 114.94.188.196.50015: [udp sum ok] UDP, length 148
+
+11 packets captured
+24829 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,60 @@
+[
+  {
+    "class": "NEConfiguration",
+    "ApplicationName": "Cisco Secure Client - Socket Filter",
+    "Name": "Cisco Secure Client - Socket Filter",
+    "Application": "com.cisco.anyconnect.macos.acsock"
+  },
+  {
+    "class": "NEConfiguration",
+    "ApplicationName": "Cisco Secure Client - Socket Filter",
+    "Name": "Cisco Secure Client - Socket Filter",
+    "Application": "com.cisco.anyconnect.macos.acsock"
+  },
+  {
+    "class": "NEContentFilter",
+    "Enabled": true
+  },
+  {
+    "class": "NEFilterProviderConfiguration",
+    "DisableDefaultDrop": false,
+    "PluginType": "com.cisco.anyconnect.macos.acsock",
+    "FilterSockets": true,
+    "FilterPackets": false,
+    "PreserveExistingConnections": false,
+    "PacketProviderBundleIdentifier": "$null",
+    "DataProviderBundleIdentifier": "com.cisco.anyconnect.macos.acsockext"
+  },
+  {
+    "class": "NEConfiguration",
+    "ApplicationName": "Cisco Secure Client - Socket Filter",
+    "Name": "Cisco Secure Client - Socket Filter",
+    "Application": "com.cisco.anyconnect.macos.acsock"
+  },
+  {
+    "class": "NEConfiguration",
+    "ApplicationName": "com.apple.ALF.ApplicationFirewall",
+    "Name": "com.apple.preferences.application-firewall",
+    "Application": "com.apple.ALF.ApplicationFirewall"
+  },
+  {
+    "class": "NEContentFilter",
+    "Enabled": true
+  },
+  {
+    "class": "NEFilterProviderConfiguration",
+    "DisableDefaultDrop": false,
+    "PluginType": "com.apple.ALF.ApplicationFirewall",
+    "FilterSockets": true,
+    "FilterPackets": false,
+    "PreserveExistingConnections": true,
+    "PacketProviderBundleIdentifier": "$null",
+    "DataProviderBundleIdentifier": "com.apple.ALF.ApplicationFirewall"
+  },
+  {
+    "class": "NEConfiguration",
+    "ApplicationName": "$null",
+    "Name": "com.apple.preferences.networkprivacy-<local-id>",
+    "Application": "$null"
+  }
+]

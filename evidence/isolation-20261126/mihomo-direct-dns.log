@@ -1,0 +1,2 @@
+SOCKS UDP ASSOCIATE OK; local relay=127.0.0.1:17890
+UDP DNS control: proxy=True; transaction_matches=True; response=True; rcode=0; answers=2

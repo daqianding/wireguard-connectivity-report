@@ -52,3 +52,19 @@ E6/E9 是成功代理实验；E7 是相同中转程序直接发 UDP 的失败对
 | `cleanup.log`、`cleanup-interfaces.log` | 收尾后的代理与路由；后者为空文件是 `wg show interfaces` 无接口的实际输出；前者未发现相关测试进程 |
 
 这批文件是文本输出及观测汇总，不是原始 PCAP。代理日志仅记录已加密数据报的长度和方向，没有记录 UDP 内容或 SSH 会话数据。账号名、UID、服务器接口和地址保留用于网管核对；没有上传本机 SSH 私钥、WireGuard 私钥、sudo 密码、代理订阅或节点连接配置。
+
+## 进一步隔离 E13–E16
+
+`isolation-20261126/` 保存后续 39 个证据文件。本机用户目录替换为 `$HOME`，无关本地网络隐私配置 UUID 替换为 `<local-id>`；没有上传整个 Network Extension 配置或系统设置截图。
+
+- `mihomo-direct*` 和 `direct-via-mihomo-relay.log`：独立 Mihomo DIRECT 的配置、日志、API 连接记录、DNS 控制、9 包无回复及 WG 状态。原主实例未更改。
+- `filter-configuration.json`：停用前筛选的 NE 配置字段；`cisco-off-*` 为总扩展停用的起止状态、保留的配置字段、进程检查、11 包无回复和 WG 状态；`cisco-restored-state.log` 确认恢复。配置记录的 Enabled 与扩展运行状态是不同层次，未混用。
+- `apple-firewall.log`：系统防火墙只读状态和 WireGuard 入站许可，没有关闭防火墙。
+- `restored-proxy-*`：Cisco 恢复后的代理握手、真实 SSH 登录、有限 systemd 状态和无权读取完整 journal 的提示。
+- `trace-udp50015.log`：固定目的 UDP 50015 的普通 traceroute；40 B 普通探测内容，不是 WireGuard 请求。
+- `wg-ttl-*-v1.*`：第一版实际握手 TTL 探测及代码；connected UDP 抢先返回 socket 错误，漏读相应 ICMP，不能用于判断“无路由”。未删除或覆盖这一轮记录。
+- `wg-ttl-*`（无 v1）：修正后真实握手内容的 14 包探测、匹配的 6 个 ICMP 和官方客户端启动/关闭输出；可运行代码在 `diagnostics/wg-ttl-probe.py`。本工具仅检查包到达响应设备，不验证完整 WG 会话，重放及多路径限制见报告。
+- `rdap-networks.json`：从 APNIC RDAP 取得的地址段名称/范围等公开字段，不含注册联系人。网页读取工具无法打开该 API，随后通过 HTTPS curl 成功读取 JSON；这属于地址注册资料，不是物理定位。
+- `cleanup*`：没有残留测试进程/接口，Clash 系统代理保留。
+
+Cisco 的临时停用已获用户单独明确同意。实际通过系统设置的扩展总开关完成，停用后进程退出、系统标记 disabled；恢复后界面为 on、进程重新出现、系统标记 enabled。网络页逐项状态下拉在自动化中未产生可验证变化，因此没有把那些点击计作有效停用。
