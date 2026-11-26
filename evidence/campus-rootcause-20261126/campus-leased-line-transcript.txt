@@ -1,0 +1,60 @@
+# Transcript of HKU Campus Wi-Fi -> Shanghai Internal Leased Line Tests (E20)
+# Recorded: 2026-11-26 23:11–23:19 UTC+08:00 on HKU Wi-Fi (en0 = 10.71.174.20, gateway 10.71.128.1, DNS hku.hk)
+
+=== 1. Forward UDP Traceroute to Internal Endpoint 10.128.13.133:51820 ===
+traceroute to 10.128.13.133 (10.128.13.133), 10 hops max, 40 byte packets
+ 1  10.71.128.2  14.908 ms
+ 2  10.64.1.216  5.339 ms
+ 3  10.64.1.196  3.948 ms
+ 4  10.64.1.154  32.349 ms
+ 5  1.1.1.17  31.345 ms
+ 6  10.128.0.254  33.466 ms
+ 7  *
+ 8  *
+ 9  *
+10  *
+
+=== 2. Native WireGuard Directed to Internal Endpoint 10.128.13.133:51820 ===
+# AllowedIPs excluded 10.128.13.133/32 to prevent routing loop:
+# allowed ips: 10.200.0.0/24, 10.128.13.130/32, 10.128.13.131/32, 10.128.13.132/32
+
+--- en0 Packet Capture (Initial Handshake Succeeds in 32.35 ms, Subsequent Transport Data Blocked) ---
+2026-11-26 23:11:38.795862 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 148
+2026-11-26 23:11:38.828211 IP 10.128.13.133.51820 > 10.71.174.20.51046: UDP, length 92
+2026-11-26 23:11:38.828590 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 32
+2026-11-26 23:11:38.835451 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:39.835565 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:40.836099 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:41.836064 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:42.836457 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:43.836255 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:44.840851 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:45.842446 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:46.842984 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+2026-11-26 23:11:47.843944 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 96
+
+--- wg show ---
+interface: utun7
+  public key: 7qUSYM2GQ4+kFPGXhza1dAAvSGiFtWjE6/oncgG4uhY=
+  private key: (hidden)
+  listening port: 51046
+
+peer: 6C6IP2TPYqsQSYeJD4aMKihY0+8crOCGjbqFQLGeilE=
+  endpoint: 10.128.13.133:51820
+  allowed ips: 10.200.0.0/24, 10.128.13.130/32, 10.128.13.131/32, 10.128.13.132/32
+  latest handshake: 10 seconds ago
+  transfer: 92 B received, 1.11 KiB sent
+  persistent keepalive: every 25 seconds
+
+--- Follow-up Dual Capture 6 Minutes Later on Same 5-Tuple (51046 -> 51820) ---
+# Subsequent re-handshake initiations (148 B) on same 5-tuple also receive 0 bytes back:
+2026-11-26 23:18:18.379503 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 148
+2026-11-26 23:18:23.533421 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 148
+2026-11-26 23:18:28.595121 IP 10.71.174.20.51046 > 10.128.13.133.51820: UDP, length 148
+
+=== 3. Non-WireGuard High-Port TCP & UDP Control on Pure HKU Campus Wi-Fi (All WG Down) ===
+# Temporary 18s Python echo listener on 10.128.13.130:54433; client bound directly to en0 (10.71.174.20)
+en0 IP: 10.71.174.20
+gateway: 10.71.128.1
+DIRECT_TCP_54433: SUCCESS in 69.3 ms -> b'TCP_PONG_FROM_S71\n'
+DIRECT_UDP_54433: SUCCESS in 37.8 ms from ('10.128.13.130', 54433) -> b'UDP_PONG_FROM_S71'

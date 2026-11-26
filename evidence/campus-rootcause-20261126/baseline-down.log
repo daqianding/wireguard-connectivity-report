@@ -1,0 +1,3 @@
+[+] Interface for HKU-SH-Lab is utun7
+[#] rm -f /var/run/wireguard/utun7.sock
+[#] rm -f /var/run/wireguard/HKU-SH-Lab.name

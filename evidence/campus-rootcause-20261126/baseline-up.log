@@ -1,0 +1,9 @@
+[#] wireguard-go utun
+[+] Interface for HKU-SH-Lab is utun7
+[#] wg addconf utun7 /dev/fd/63
+[#] ifconfig utun7 inet 10.200.0.5/24 10.200.0.5 alias
+[#] ifconfig utun7 mtu 1280
+[#] ifconfig utun7 up
+[#] route -q -n add -inet 10.200.0.0/24 -interface utun7
+[#] route -q -n add -inet 10.128.13.0/24 -interface utun7
+[+] Backgrounding route monitor
